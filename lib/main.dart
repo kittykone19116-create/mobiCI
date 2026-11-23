@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'pages/resultats_itineraire_page.dart';
+import 'pages/recherche_itineraire_page.dart';
 
 void main() {
   runApp(const MobiCIApp());
@@ -17,7 +17,7 @@ class MobiCIApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFFF77F00)),
         useMaterial3: true,
       ),
-                  home: const ResultatsItinerairePage(),
+                        home: const RechercheItinerairePage(),
     );
   }
 }
